@@ -2,23 +2,38 @@
 
 ## Overview
 
-The Cold Email Generator project is a tool designed to automate the process of generating cold emails. It uses various libraries and models to craft personalized emails for outreach. This repository includes the code and instructions necessary to set up and run the project.
+The Cold Email Generator is a Python-based application designed to automate the creation of cold emails. It leverages various technologies to generate, manage, and optimize cold email content. The application uses a combination of modern libraries and APIs to provide a seamless experience for generating personalized cold emails.
+
+## Tech Stack
+
+- **Python**: The primary programming language used for developing the application.
+- **Streamlit**: A framework for creating interactive web applications for data science and machine learning projects.
+- **ChromaDB**: A database used to store and query tech stack links based on relevance.
+- **Groq API**: An API used for interacting with advanced AI models.
+- **Llama3**: An AI model utilized for generating text based on prompts.
+- **LangChain**: A framework that integrates with Llama3 and other tools to manage and enhance language model interactions.
 
 ## Features
 
-- **Personalized Cold Emails**: Generate tailored cold emails based on input parameters.
-- **Integration with GROQ API**: Utilize the GROQ API for natural language processing and content generation.
-- **Flexible Configuration**: Easily configure the project with environment variables.
+- **Generate Cold Emails**: Create personalized cold emails using advanced language models.
+- **Tech Stack Querying**: Store tech stack links in ChromaDB and query for relevant links based on the tech stack.
+- **Interactive UI**: Use Streamlit to interact with the application and manage email generation tasks.
 
-## Installation
+## Setup
 
-Follow these steps to set up the project on your local machine:
+### Prerequisites
+
+1. **Python**: Ensure that Python is installed on your system.
+2. **Anaconda**: Install Anaconda to manage Python environments and packages.
+
+### Installation
 
 1. **Clone the Repository**
 
-    ```bash
-    git clone https://github.com/ritu456286/Cold-email-generator.git
-    ```
+   ```bash
+   git clone https://github.com/ritu456286/Cold-email-generator.git
+   cd Cold-email-generator
+   ```
 
 2. **Navigate to the Project Directory**
 
